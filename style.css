@@ -1,0 +1,773 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+
+@font-face {
+    font-family: FightSpirit;
+    src: url(Adventure.otf);
+}
+
+#navbar-toggler{
+    border: none;
+}
+
+#navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.login-btn
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: #5757b1;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.herosection /* HeroSection start*/
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.FheroSection h5
+{
+    font-family: FightSpirit;
+    font-size: 41px;
+}
+
+
+.top_style {
+            -webkit-animation: top_style 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: top_style 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+
+  @-webkit-keyframes top_style {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(-300px);
+              transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes top_style {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(-300px);
+              transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+.FheroSection p
+{
+    padding: 0 0 20px 0;
+}
+
+.FheroSection #seeMore
+{
+    padding: 10px 18px 10px 18px;
+    margin: 0 20px 0 0;
+    border: none;
+    background-color: #5757b1;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.FheroSection #makeApp
+{
+    padding: 10px 18px 10px 18px;
+    border: none;
+    background-color: #caa361;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.FheroSection
+{
+    padding: 15em;
+}
+
+.SheroSection img
+{
+    width: 100%;
+}
+
+
+
+
+.herosection {
+	-webkit-animation: herosection 2s linear infinite alternate both;
+	        animation: herosection 2s linear infinite alternate both;
+}
+
+
+@-webkit-keyframes herosection {
+    0% {
+      background: #F5F5FF;
+    }
+    100% {
+      background: #fffbf5;
+    }
+  }
+  @keyframes herosection {
+    0% {
+      background: #b3b0ac;
+    }
+    100% {
+      background: #f9f5ff;
+    }
+  }  /* HeroSection end*/
+
+
+.developer p
+{
+   display: flex;
+   justify-content: center;
+   font-weight: 700;
+   padding: 30px 0 0 0;
+   color: #fff;
+}
+
+.coonnect-with_me
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.ExploreSection /* ExploreSection  start*/
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.FexploreSection img
+{
+    width: 70%;
+    padding: 7em 0 0 0;
+}
+
+.SexploreSection
+{
+    padding: 14em 7em 0 0;
+}
+
+.SexploreSection #Explore
+{
+    color: #caa361;
+    font-weight: 500;
+}
+
+.SexploreSection h5
+{
+    font-family: FightSpirit;
+    font-size: 41px;
+    padding: 0 0 20px 0;
+}
+
+.SexploreSection #seeMore
+{
+    padding: 10px 18px 10px 18px;
+    margin: 0 20px 0 0;
+    border: none;
+    background-color: #5757b1;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}   /* ExploreSection  end*/
+
+
+.firstProductSection  /* produuct start */
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.firstProductSection img
+{
+    width: 20%;
+    height: 20%;
+}
+
+.firstProductSection #product1 
+{
+  background-color: #5757b1;
+  padding: 40px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.firstProductSection #product2
+{
+  background-color: #F5F5FF;
+  padding: 40px;
+  margin: 30px 50px 0 0;
+  border-radius: 15px;
+}
+
+
+.secondProductSection
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.secondProductSection img
+{
+    width: 20%;
+    height: 20%;
+}
+
+.secondProductSection #product3
+{
+  background-color: #5757b1;
+  padding: 40px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.secondProductSection #product4
+{
+  background-color: #F5F5FF;
+  padding: 40px;
+  margin: 30px 50px 0 0;
+  border-radius: 15px;
+}
+
+
+.thirdProductSection
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.thirdProductSection img
+{
+    width: 20%;
+    height: 20%;
+}
+
+.thirdProductSection #product5
+{
+  background-color: #5757b1;
+  padding: 40px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.thirdProductSection #product6
+{
+  background-color: #F5F5FF;
+  padding: 40px;
+  margin: 30px 50px 0 0;
+  border-radius: 15px;
+}
+
+
+.pricingSection
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    margin: 80px 0 0 0;
+}
+
+
+.pricingSection p
+{
+ font-weight: 500;
+}
+
+.pricingSection .FpriceBox
+{
+background-color: #F5F5FF;
+padding: 50px 50px 0 50px;
+margin: 50px 0 0 0;
+}
+
+.pricingSection .FpriceBox button
+{
+    border: none;
+    color: #fff;
+    background-color: #5757b1;
+    padding: 10px 50px 10px 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.pricingSection .FpriceBox #priceDisable
+{
+   text-decoration: line-through;
+   opacity: 0.2;
+}
+
+.pricingSection .spriceBox
+{
+    background-color: #f0e4cf;
+    padding: 50px 50px 0 50px;
+    margin: 50px 0 0 0;
+}
+
+.pricingSection .spriceBox button
+{
+    border: none;
+    color: #fff;
+    background-color: #caa361;
+    padding: 10px 50px 10px 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.pricingSection .FpriceBox h6
+{
+    font-family: highsan;
+    font-size: 58px;
+    color: #dcbe89;
+}
+
+.pricingSection .spriceBox h6
+{
+    font-family: highsan;
+    font-size: 58px;
+    color: #5757b1;
+}
+
+.pricingSection .spriceBox p
+{
+    font-family: whitesan;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.pricingSection .FpriceBox p
+{
+    font-family: whitesan;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: highsan;
+    src: url(high_sans_serif_7.ttf);
+}
+
+@font-face {
+    font-family: whitesan;
+    src: url(Whiteamour-SanSerif-DEMO.otf);
+}
+
+
+
+
+.STYLING
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 5em 0 0 0;
+    background: #F5F5FF;
+}
+
+.STYLING video 
+{
+    height: 50%;
+    outline: none;
+    border-radius: 5px;
+    margin: 16em 0 0 0;
+}
+
+
+
+.STYLING_text p
+{
+    text-wrap: wrap;
+}
+
+.STYLING_text h5
+{
+
+font-family: FightSpirit;
+font-size: 40px;
+}
+
+.STYLING_text 
+{
+    margin: 24em 0 0 0;
+}
+
+.STYLING_text button
+{
+    border: none;
+    color: #fff;
+    background-color: #5757b1;
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+}
+
+.Servicesbox h2
+{
+    display: flex;
+    justify-content: center;
+    font-family: FightSpirit;
+    margin: 40px 0 0 0;
+}
+
+.Servicesbox p
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    padding: 10px 0 0 0;
+    font-family: whitesan;
+    font-size: 50px;
+}
+
+.Services
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    margin: 70px 0 0 0;
+}
+
+
+
+div.polaroid {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    color: #101415;
+  }
+
+
+
+.AppointmentSection
+
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.AppointmentSectionText h6 
+{
+    font-family: FightSpirit;
+    color: #5757b1;
+    font-size: 40px;
+    margin: 120px 0 0 0;
+}
+
+
+.AppointmentSectionText 
+{
+   font-weight: 500;
+}
+
+
+.AppointmentSectionForm
+{
+    background-color: #F5F5FF;
+    padding: 20px;
+    margin: 0 0 0 0;
+}
+
+.AppointmentSectionForm input
+{
+   width: 30em;
+   outline: none;
+   border: none;
+   padding: 5px 0 5px 10px;
+}
+
+.AppointmentSectionForm input::placeholder
+{
+    color: #5757b1;
+}
+
+.AppointmentSectionForm span 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.AppointmentSectionForm button 
+{
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #5757b1;
+    font-weight: 500;
+    padding: 5px 40px 5px 40px;
+}
+
+footer 
+{
+    background-color: #101415;
+}
+
+.firstFooter 
+{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.firstFooter  section
+{
+margin: 20px 0 0 0;
+cursor: pointer;
+}
+
+.firstFooter  b:hover
+{
+     color: #caa361;
+}
+
+.firstFooter  #pfooter
+{
+    padding: 0 70px 0 70px;
+}
+
+#hr
+{
+    background-color: #F5F5FF;
+    color: #fff;
+}
+@media screen and (max-width: 480px)
+{
+
+    .herosection
+    {
+        display: block;
+    }
+    .SheroSection img
+    {
+        width: 100%;
+    }
+
+    .FheroSection
+{
+    padding: 40px;
+}
+    .FheroSection h5
+{
+    font-family: FightSpirit;
+    font-size: 21px;
+}
+.coonnect-with_me
+{
+    gap: 10px;
+}
+
+.ExploreSection 
+{
+    display: block;
+}
+
+.FexploreSection img
+{
+    width: 100%;
+    padding: 4em 0 0 0;
+}
+
+.SexploreSection
+{
+    padding: 20px;
+}
+
+.SexploreSection #Explore
+{
+    padding: 5em 0 0 0;
+}
+
+.firstProductSection
+{
+    display: block;
+}
+
+.firstProductSection img
+{
+    width: 50%;
+    height: 50%;
+}
+
+
+.firstProductSection #product1 
+{
+  padding: 40px;
+  margin: 50px 0 0 145px;
+  border-radius: 15px;
+}
+
+.firstProductSection #product2
+{
+  padding: 40px;
+  margin: 20px 0 50px 145px;
+  border-radius: 15px;
+}
+
+.secondProductSection
+{
+    display: block;
+}
+.thirdProductSection
+{
+    display: block;
+}
+
+.secondProductSection #product3
+{
+  padding: 40px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.secondProductSection #product4
+{
+  background-color: #F5F5FF;
+  padding: 40px;
+  margin: 30px 0 0 10px;
+  border-radius: 15px;
+}
+
+
+.secondProductSection img
+{
+    width: 50%;
+    height: 50%;
+}
+
+.thirdProductSection #product5
+{
+  padding: 17px;
+  margin: 50px 0 0 145px;
+  border-radius: 15px;
+}
+
+.thirdProductSection #product6
+{
+  padding: 17px;
+  margin: 30px 0 0 145px;
+  border-radius: 15px;
+}
+
+.thirdProductSection img
+{
+    width: 50%;
+    height: 50%;
+}
+
+
+.pricingSection
+{
+    display: block;
+}
+
+.STYLING
+{
+    display: block;
+}
+
+.STYLING video 
+{
+    height: 50%;
+    width: 90%;
+    border-radius: 5px;
+    margin: 7em 0 0 20px;
+}
+
+.STYLING_text 
+{
+    margin: 5em 0 0 0;
+    padding: 0 0 0 20px;
+}
+
+.STYLING_text button
+{
+    margin: 10px 0 20px 0;
+}
+
+.Services
+{
+    display: block;
+    margin: 20px;
+}
+
+div.polaroid {
+    width: 100%;;
+  }
+
+  .AppointmentSectionText
+  {
+    padding: 20px;
+  }
+
+  .AppointmentSectionText p 
+{
+   padding: 15px 0 0 0;
+}
+
+  .AppointmentSection
+  {
+    display: block;
+  }
+  .AppointmentSectionForm 
+  {
+    margin: 5em 0 0 0;
+  }
+  .AppointmentSectionForm input
+{
+   width: 100%;
+}
+
+.Servicesbox
+{
+    padding: 20px;
+}
+
+.firstFooter 
+{
+    display: block;
+}
+.firstFooter  section
+{
+margin: 20px 0 0 30px;
+cursor: pointer;
+}
+
+
+}
